@@ -3,7 +3,7 @@ export default function Cards() {
     return (
         <div className="grid grid-cols-1 md:grid-cols-3 mx-6 my-10 gap-2">
             <div className="rounded-md h-200 w-100 bg-purple-950 border-purple-900 border-2 ">
-                <Image src={"/g1.jpg"} width={100} height={100} quality={100} alt="" className="w-full h-auto"></Image>
+                <Image src={"/g1.jpg"} width={100} height={100} alt="" className="w-full h-auto"></Image>
                 <div className="mx-2 my-2 flex flex-col gap-2">
                 <h1 className=" text-white text-xl font-sans">Academic Excellence:</h1>
                 <p className="text-white font-sans">To foster a love for learning by providing high-quality education, encouraging curiosity, and nurturing critical thinking skills.</p>
